@@ -1,0 +1,64 @@
+
+.root{
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+.split{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 0;  
+}
+
+.items{
+    padding: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#x-logo{
+    width: 50%;
+    height: 50%;
+    padding: 35%;
+}
+
+input{
+    height: 3.5em;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: medium;
+}
+
+input:hover{
+    background-color: lightcyan;
+}
+
+#createaccount{
+    background-color: lightblue;
+}
+
+#signin{
+    color: lightblue;
+}
+
+#heading{
+    font-size: 3em;
+
+}
+
